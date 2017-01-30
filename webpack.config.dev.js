@@ -1,4 +1,3 @@
-import webpack from 'webpack';
 import path from 'path';
 
 export default {
@@ -11,7 +10,7 @@ export default {
   target: 'web',
   output: {
     path: path.resolve(__dirname, 'src'),
-    publicPath: '/',
+    publicPath: '/',  
     filename: 'bundle.js'
   },
   plugins: [],
